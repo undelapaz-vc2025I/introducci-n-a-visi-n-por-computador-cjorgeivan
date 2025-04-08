@@ -40,7 +40,6 @@ def obtener_info_imagen(img):
         - num_canales es el número de canales (1 para escala de grises, 3 para RGB, 4 para RGBA)
         - dimensiones es una tupla con las dimensiones (ancho, alto) de la imagen
     """
-    
     # Obtener el número de canales
     modo = img.mode
     if modo == 'L':  # Escala de grises
